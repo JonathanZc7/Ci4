@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Lista de Personas</h1>
-        <?php print_r($Persona); ?>
+       
         <div class="container">
             <table class="table table-light">
                 <thead class="thead-light">
