@@ -7,13 +7,13 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        return view('personas/crear');
     
     }
 
     public function Prueba()
     {
-        echo 'Hello esto es una prueba';
+        echo 'Hello esto es una prueba tarea Desarrollo de App';
         
      }
     
@@ -37,11 +37,9 @@ class Home extends BaseController
     {
         $this->db=\Config\Database::connect();
         
-        $query=$this->db->query("SELECT * FROM `usuario` ");
+        $query=$this->db->query("SELECT * FROM `usuario`");
         $result=$query->getResult();
         return $this->response->setJSON($result);
-
-        
 
      }
 }
