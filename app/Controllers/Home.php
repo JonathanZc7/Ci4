@@ -37,11 +37,11 @@ class Home extends BaseController
     {
         $this->db=\Config\Database::connect();
         
-        $query=$this->db->query("SELECT * FROM usuario");
+        $query=$this->db->query("SELECT * FROM `usuario` ");
         $result=$query->getResult();
         return $this->response->setJSON($result);
 
-        //echo "Hello esta conectada la BD tareadesarrollo en postgrest";
+        
 
      }
 }
