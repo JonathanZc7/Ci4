@@ -1,0 +1,21 @@
+CRITICAL - 2023-07-17 00:47:18 --> Undefined property: App\Controllers\Personas::$resquest
+in APPPATH\Controllers\Personas.php on line 33.
+ 1 APPPATH\Controllers\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Personas::$resquest', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 00:47:56 --> Undefined property: App\Controllers\Personas::$resquest
+in APPPATH\Controllers\Personas.php on line 33.
+ 1 APPPATH\Controllers\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Personas::$resquest', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 00:48:38 --> Undefined property: App\Controllers\Personas::$resquest
+in APPPATH\Controllers\Personas.php on line 32.
+ 1 APPPATH\Controllers\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Personas::$resquest', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
