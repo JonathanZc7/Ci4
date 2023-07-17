@@ -29,10 +29,14 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+//Tarea 
 $routes->get('/index', 'Home::index');
 $routes->get('/Prueba', 'Home::Prueba');
 $routes->get('/Api', 'Home::Api');
 
+
+//Tarea Crud y db conectada
 $routes->get('Prueba2', 'Home::Prueba2');
 $routes->get('listar', 'Personas::index');
 $routes->get('crear', 'Personas::crear');

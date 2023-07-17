@@ -19,3 +19,332 @@ in APPPATH\Controllers\Personas.php on line 32.
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 00:58:46 --> [DEPRECATED] Creation of dynamic property App\Models\Persona::$nombre is deprecated in APPPATH\Controllers\Personas.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 00:58:46 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in C:\xampp\htdocs\Ci4\app\Controllers\Personas.php on line 36 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 683.
+ 1 APPPATH\Controllers\Personas.php(36): CodeIgniter\BaseModel->save()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 01:16:22 --> [DEPRECATED] Creation of dynamic property App\Models\Persona::$nombre is deprecated in APPPATH\Controllers\Personas.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:16:22 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in C:\xampp\htdocs\Ci4\app\Controllers\Personas.php on line 36 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 683.
+ 1 APPPATH\Controllers\Personas.php(36): CodeIgniter\BaseModel->save()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:18:54 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:19:22 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:20:15 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:22:36 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:24:31 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:24:53 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:37:42 --> syntax error, unexpected token "/"
+in APPPATH\Views\personas\Listar.php on line 3.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:37:45 --> syntax error, unexpected token "/"
+in APPPATH\Views\personas\Listar.php on line 3.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:49:51 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:50:37 --> Undefined variable $piepagina
+in APPPATH\Views\personas\crear.php on line 36.
+ 1 APPPATH\Views\personas\crear.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $piepagina', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:51:47 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:53:48 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 01:58:15 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:00:14 --> Undefined array key "nombre"
+in APPPATH\Controllers\Personas.php on line 37.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:00:22 --> Undefined array key "nombre"
+in APPPATH\Controllers\Personas.php on line 37.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 02:02:22 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Personas.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:02:22 --> Call to undefined method App\Models\Persona::setNombre
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Model->__call('setNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:02:57 --> Undefined array key "nombre"
+in APPPATH\Controllers\Personas.php on line 37.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:03:54 --> Undefined array key "nombre"
+in APPPATH\Controllers\Personas.php on line 37.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:04:47 --> Undefined property: App\Controllers\Personas::$resquest
+in APPPATH\Controllers\Personas.php on line 32.
+ 1 APPPATH\Controllers\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Personas::$resquest', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:08:49 --> Undefined array key "correo"
+in APPPATH\Controllers\Personas.php on line 37.
+ 1 APPPATH\Controllers\Personas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:09:18 --> print_r() expects at most 2 arguments, 4 given
+in APPPATH\Controllers\Personas.php on line 38.
+ 1 APPPATH\Controllers\Personas.php(38): print_r('Roldofo Lara', '005', '1311788064', 'jzambrano8069@utm.edu.ec')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:15:25 --> Invalid file: "personas/guardar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('personas/guardar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/guardar', [], true)
+ 3 APPPATH\Controllers\Personas.php(46): view('personas/guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:19:20 --> Invalid file: "personas/confirmacion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('personas/confirmacion.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/confirmacion', [], true)
+ 3 APPPATH\Controllers\Personas.php(42): view('personas/confirmacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:19:55 --> Invalid file: "personas/confirmacion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('personas/confirmacion.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/confirmacion', [], true)
+ 3 APPPATH\Controllers\Personas.php(42): view('personas/confirmacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 02:20:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Personas.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:20:24 --> Call to undefined method App\Models\Persona::setNombre
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Personas.php(36): CodeIgniter\Model->__call('setNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 02:20:33 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Personas.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:20:33 --> Call to undefined method App\Models\Persona::setNombre
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Personas.php(36): CodeIgniter\Model->__call('setNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:22:03 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:23:00 --> view(): Argument #2 ($data) must be of type array, App\Models\Persona given, called in C:\xampp\htdocs\Ci4\app\Controllers\Personas.php on line 42
+in SYSTEMPATH\Common.php on line 1168.
+ 1 APPPATH\Controllers\Personas.php(42): view('personas/crear', Object(App\Models\Persona))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:23:25 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Personas.php(42): view('personas/crear')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:24:11 --> Undefined variable $cabecera
+in APPPATH\Views\personas\crear.php on line 1.
+ 1 APPPATH\Views\personas\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 5 APPPATH\Controllers\Personas.php(42): view('personas/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:24:27 --> Undefined variable $datos
+in APPPATH\Controllers\Personas.php on line 41.
+ 1 APPPATH\Controllers\Personas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:24:32 --> Undefined variable $datos
+in APPPATH\Controllers\Personas.php on line 41.
+ 1 APPPATH\Controllers\Personas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

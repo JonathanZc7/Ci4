@@ -29,10 +29,20 @@ class Personas extends Controller
     }
 
     public function guardar(){
+        $datos['cabecera'] = view ('template/cabecera');
+        $datos['piepagina'] = view ('template/piepagina');
 
-        $persona = new Persona();
-        $nombre = $_REQUEST['nombre'];
-        print_r($nombre);   
+        $persona = new persona();
+        $id = $_REQUEST['Id'];
+        $cedula = $_REQUEST['Cedula'];
+        $nombre = $_REQUEST['Nombres'];
+        $correo = $_REQUEST['Correo'];
+
+       
+        return view('personas/crear', $datos);
+
+       
+  
     
     }
 
