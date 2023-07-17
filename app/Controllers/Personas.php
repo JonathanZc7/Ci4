@@ -32,7 +32,6 @@ class Personas extends Controller
 
         $persona = new Persona();
         $nombre = $_REQUEST['nombre'];
-        
         print_r($nombre);   
     
     }
