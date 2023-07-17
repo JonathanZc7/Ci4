@@ -35,6 +35,9 @@ $routes->get('/Api', 'Home::Api');
 
 $routes->get('Prueba2', 'Home::Prueba2');
 $routes->get('listar', 'Personas::index');
+$routes->get('crear', 'Personas::crear');
+$routes->post('guardar', 'Personas::guardar');
+
 
 
 /*

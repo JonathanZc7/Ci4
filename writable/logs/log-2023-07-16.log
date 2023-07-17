@@ -529,3 +529,230 @@ in APPPATH\Views\personas\Listar.php on line 25.
  7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-16 20:49:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Prueba2()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 21:04:30 --> Undefined variable $pie
+in APPPATH\Views\personas\Listar.php on line 25.
+ 1 APPPATH\Views\personas\Listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pie', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(16): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 21:06:22 --> Undefined variable $pie
+in APPPATH\Views\personas\Listar.php on line 25.
+ 1 APPPATH\Views\personas\Listar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pie', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(16): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-16 21:13:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Prueba2()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-16 21:58:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Prueba2()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:25:55 --> syntax error, unexpected token "/"
+in APPPATH\Views\personas\crear.php on line 12.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/crear', [], true)
+ 3 APPPATH\Controllers\Personas.php(28): view('personas/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:29:09 --> Array to string conversion
+in APPPATH\Controllers\Personas.php on line 32.
+ 1 APPPATH\Controllers\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:30:17 --> Array to string conversion
+in APPPATH\Controllers\Personas.php on line 32.
+ 1 APPPATH\Controllers\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:30:21 --> Array to string conversion
+in APPPATH\Controllers\Personas.php on line 32.
+ 1 APPPATH\Controllers\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:36:11 --> syntax error, unexpected token "new"
+in APPPATH\Controllers\Personas.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ci4\\app\\Controllers\\Personas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Personas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Personas')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Personas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:44:11 --> Undefined array key "Editar/Eliminar"
+in APPPATH\Views\personas\Listar.php on line 24.
+ 1 APPPATH\Views\personas\Listar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Editar/Eliminar"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:44:14 --> Undefined array key "Editar/Eliminar"
+in APPPATH\Views\personas\Listar.php on line 24.
+ 1 APPPATH\Views\personas\Listar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Editar/Eliminar"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:58:07 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\personas\Listar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:58:37 --> Access denied for user 'usuario'@'localhost' (using password: YES)
+in APPPATH\Views\personas\Listar.php on line 37.
+ 1 APPPATH\Views\personas\Listar.php(37): mysqli_connect('localhost', 'usuario', Object(SensitiveParameterValue), 'basededatos')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 22:59:11 --> Undefined array key "id"
+in APPPATH\Views\personas\Listar.php on line 40.
+ 1 APPPATH\Views\personas\Listar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:00:37 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\personas\Listar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:01:09 --> Undefined array key "id"
+in APPPATH\Views\personas\Listar.php on line 40.
+ 1 APPPATH\Views\personas\Listar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:11:47 --> syntax error, unexpected token "<"
+in APPPATH\Views\personas\Listar.php on line 45.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:12:00 --> Undefined array key "id"
+in APPPATH\Views\personas\Listar.php on line 40.
+ 1 APPPATH\Views\personas\Listar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:12:18 --> Undefined array key "id"
+in APPPATH\Views\personas\Listar.php on line 40.
+ 1 APPPATH\Views\personas\Listar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:16:30 --> syntax error, unexpected token "<"
+in APPPATH\Views\personas\Listar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:16:41 --> syntax error, unexpected token "<"
+in APPPATH\Views\personas\Listar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 3 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-16 23:17:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Prueba2()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:20:56 --> include(conexion.php): Failed to open stream: No such file or directory
+in APPPATH\Views\personas\Listar.php on line 7.
+ 1 APPPATH\Views\personas\Listar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 7)
+ 2 APPPATH\Views\personas\Listar.php(7): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 6 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-16 23:21:42 --> Undefined array key "id"
+in APPPATH\Views\personas\editar.php on line 14.
+ 1 APPPATH\Views\personas\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\editar.php', 14)
+ 2 APPPATH\Views\personas\Listar.php(7): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 6 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

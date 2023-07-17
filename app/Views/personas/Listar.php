@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Tarea Jonathan Zambrano</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    </head>
-    <body>
-        <h1>Lista de Personas</h1>
-       
+<?=$cabecera?>
+
         <div class="container">
             <table class="table table-light">
                 <thead class="thead-light">
@@ -31,3 +24,5 @@
         </div>
     </body>
 </html>
+
+  <?=$piepagina?>
