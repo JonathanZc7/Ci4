@@ -52,10 +52,31 @@ class Personas extends Controller
         return view('personas/crear', $datos);
 
        
+
   
     
     }
+     
+    
+    public function eliminar()
+        {
+            $Id = $this->input->post('Id'); // Obtener el valor de $Id desde la entrada del formulario o de donde corresponda
+        
+           $persona = new persona();
+           $datos = $persona->where('Id', $Id)->get(); // Agregar el método get() para obtener los datos de la consulta
+         
+            if ($datos) {
+                // Verificar si existe un Id asociado a la persona que se desea eliminar
+                if (isset($datos->Id)) {
+            }
 
+        }
 
-
+    
 }
+}
+
+    
+
+
+

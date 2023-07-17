@@ -41,9 +41,8 @@ $routes->get('Prueba2', 'Home::Prueba2');
 $routes->get('listar', 'Personas::index');
 $routes->get('crear', 'Personas::crear');
 $routes->post('guardar', 'Personas::guardar');
-
-
-
+$routes->get('eliminar/(:num)', 'Personas::eliminar/$1');
+$routes->get('editar', 'Personas::editar');
 /*
 * --------------------------------------------------------------------
  * Additional Routing
