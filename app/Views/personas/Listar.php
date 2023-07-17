@@ -1,5 +1,6 @@
 <?=$cabecera?>
 
+<a href="<?=base_url()?>">Nuevo registro</a>
         <div class="container">
             <table class="table table-light">
                 <thead class="thead-light">
