@@ -38,7 +38,17 @@ class Personas extends Controller
         $nombre = $_REQUEST['Nombres'];
         $correo = $_REQUEST['Correo'];
 
-       
+        $datos=[
+            'Id'=>$id,
+            'Cedula'=>$cedula,
+            'Correo'=>$correo,
+            'Nombres'=>$nombre
+        ];
+        
+        $persona->insert($datos);
+
+
+
         return view('personas/crear', $datos);
 
        

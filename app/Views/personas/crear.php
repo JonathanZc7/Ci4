@@ -1,4 +1,4 @@
-<?=$cabecera?>
+<?php echo $cabecera; ?>
 
 
 <div class="card" style="background-color:cadetblue; border-color:darkblue;">
