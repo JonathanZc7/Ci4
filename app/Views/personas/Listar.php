@@ -18,6 +18,13 @@
                         <td><?= $persona['Cedula'] ?></td>
                         <td><?= $persona['Nombres'] ?></td>
                         <td><?= $persona['Correo'] ?></td>
+                        <td>
+  
+    <a href="<?= base_url('editar/'.$persona['Id']) ?>">Editar</a>
+    <a href="<?= base_url('eliminar/'.$persona['Id']) ?>">Eliminar</a>
+
+  
+</td>
                     </tr>
                     <?php endforeach; ?>
                 </tbody>

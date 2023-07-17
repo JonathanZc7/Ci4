@@ -431,3 +431,14 @@ in APPPATH\Views\personas\crear.php on line 1.
  7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 02:45:03 --> Undefined array key "Editar/eliminar"
+in APPPATH\Views\personas\Listar.php on line 21.
+ 1 APPPATH\Views\personas\Listar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Editar/eliminar"', 'C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Ci4\\app\\Views\\personas\\Listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('personas/Listar', [], true)
+ 5 APPPATH\Controllers\Personas.php(20): view('personas/Listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Personas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personas))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
